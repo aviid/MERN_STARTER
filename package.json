@@ -1,0 +1,31 @@
+{
+  "name": "mern_starter",
+  "version": "1.0.0",
+  "description": "Mern Boilerplate for starters.. Easy to integrate.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aviid/MERN_STARTER.git"
+  },
+  "keywords": [
+    "Mern",
+    "Boilerplate"
+  ],
+  "author": "David Iruafeimi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aviid/MERN_STARTER/issues"
+  },
+  "homepage": "https://github.com/aviid/MERN_STARTER#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.0.1",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.14"
+  }
+}
